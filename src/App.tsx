@@ -38,6 +38,7 @@ function App() {
             <Button name={'Delete'} callBack={deleteList}/>
 
             <ul>
+
                 {show.map(el => {
                     return (
                         <li key={el.id}>
